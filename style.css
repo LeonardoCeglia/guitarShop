@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 1;
+
+  
+
+}
+video {
+  background-position: center;
+  object-fit:cover;
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+;
+  z-index: -2;
+}
+
+
+body   {
+  background:  rgba(60, 10, 20, 0.446)!important;
+  
+}
+
+
+
+/* nav animation */
+
+
+
+
+
+header.nav-up {
+
+  transform: translateY(-100%);
+}
+
+header.nav-down {
+ 
+  transform: translateY(0);
+}
+
+header.header-persistent {
+
+transition: 1.2s;
+
+}
+
+/* end nav animation */
+
+
+.first-banner {
+  font-size: 12px;
+  height: 50px;
+  
+}
+nav a {
+  font-size: 15px;
+}
+
+
+div.y > li {
+  margin: auto;
+  padding: auto;
+}
+.x {
+  text-decoration: none;
+  color: black;
+}
+.y {
+  list-style: none;
+}
+
+.img-logo {
+  width: auto;
+  height: 150px;
+  z-index: 1 ;
+}
+.banner-space {
+  display: flex;
+  background-color: lightgray;
+  height: 16px;
+  width: 100%;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
+}
+.container-logo {
+  height: auto;
+  width: 300px;
+  background-image: url(img/logo-guitarshop.jpeg);
+  background-position: center;
+  background-size: contain;
+  z-index: 2;
+}
+
+.featured {
+  padding-right: 0;
+}
+.card{
+  background-color: black!;
+  
+} 
+
+.title-welcome  {
+  font-size: 80px;
+  margin-top: 60px;
+  color: white;
+  font-family: 'Montserrat Subrayada', sans-serif   !important;
+  font-family: 'Zilla Slab Highlight', cursive   !important;
+  z-index: 2;
+  opacity: 0.95;
+ 
+  
+  
+}
+.used-title{
+  color: white;
+}
+p{
+  color: white;
+}
+.card-text{
+  color: #000000!important;
+}
+.line{
+  border: black solid 2px;
+}
+
+.dropdown-menu {
+  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity)) !important;
+  
+}
+.new-used{
+  background: red;
+  text-align: center;
+  color: white;
+  z-index: 3;
+}
+/* animation section */
+
+
+
+
+.card:hover{
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  
+  
+  
+  
+}
+.animation{
+  position: relative;
+}
+.guitar-name{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(15, 15, 15, 0.67);  
+}
+.animation:hover
+{
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+  transition: 300ms;
+}
+
+.btn:hover{
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  background: rgb(232, 208, 245)!important;
+  
+}
+.globe {
+  width: 30px;
+}
+
+
+/*  */
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+/*  */
